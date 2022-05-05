@@ -1,0 +1,48 @@
+ 1what makes numPY.shape()different from NumPy.size()?
+ ans,inoticed that some numpy operations take an argument called shape, such as np.zeros,where as some others
+ take an argument called size such as np.random.randint.to me, those arguments have the same function and the fact
+ that they have different names is a bit confusing.
+
+
+ 2.In numPy describe the idea of broadcasting?
+ ans, the term broadcasting refers to the ability of numpy to treat arrays of different shapes during arithmetic operations.
+      arithmetic operations on arrays are usually done on corresponding elements.if two arrays are of extremely the same shape 
+     then these operators are smoothly performed.
+
+
+ 3.what makes python better than other libraries for numerical computation?
+ ans,1.scientific numeric library
+   lib:this function is used to wrap python external library.
+   linals: used for regular linear algebra applications.
+   consonants:this algebra includes physical separation and conversion components.
+
+    2.pandas(data analysis library)
+    panda is most important data analysis library of python bing open source is used for analysing data with python.
+    it can take data formats of csv or tsv files or a sql data base and convert into python data frames with rows
+    and columns which is similar to tables in statistical formats.the package makes comparision with  dictionaries
+    with the aid of 'for' loops which are very easy to understand and operte.
+ 
+
+
+   4.how does numPy deals with files?
+   ans.**the numpysave()file store the input array in disk file with npy extension.
+   ***import numpy as np
+   a=np.array([1,2,3,4,5])
+   np.save('outfile',a)***
+
+  ***to reconstrut array from outfilenpy use load() function
+  **import numpy as np
+  b=np.load('outfile.npy')
+  print b****
+
+ *** the storage and retrived of array data in a simple text file format is done with save txt() and load txt() functions
+ ***import numpy as np
+ a=np.array([1,2,3,4,5])
+ np.savetxt('out.txt',a)
+ b=np.array('out.txt')
+ print b*****
+
+
+ 5.mention the importane of numPy.empty()?
+ ans,*This funtion is used to create an array with out intializing  the enteries of given shape and type.
+     *it provides support for large multidemensional array  objects and varies tools to work with them.
